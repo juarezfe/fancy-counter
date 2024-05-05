@@ -39,7 +39,11 @@ export default function Card() {
       <Count counter={counter} />
       <ResetButton setCounter={setCounter} />
       <ButtonContainer>
-        <CountButton setCounter={decrement} isLocked={isLocked} type="decrement" />
+        <CountButton
+          setCounter={decrement}
+          isLocked={isLocked}
+          type="decrement"
+        />
         <CountButton setCounter={increment} isLocked={isLocked} />
       </ButtonContainer>
     </div>
