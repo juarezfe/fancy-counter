@@ -5,4 +5,4 @@ This mini project example helps to understand some of the React core basic conce
 - Cleanup function inside useEffect
 - Props drilling
 - Children composition pattern
-
+- Avoid unnecessary useState for boolean variables that depend on existing local states
